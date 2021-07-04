@@ -7,7 +7,8 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
     },
     module: {
-        rules: [{
+        rules: [
+            {
                 test: /\.(ts|js)x?$/,
                 exclude: /node_modules/,
                 use: [{
@@ -34,7 +35,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, '..', './src/index.html'),
+            template: path.resolve(__dirname, '..', './public/index.html'),
         }),
     ],
     stats: 'errors-only',

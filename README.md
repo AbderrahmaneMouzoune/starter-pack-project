@@ -10,3 +10,14 @@ This have :
 - React
 - Webpack
 - Linter
+
+
+To use it :
+
+```
+npm install
+```
+
+```
+npm run
+```
